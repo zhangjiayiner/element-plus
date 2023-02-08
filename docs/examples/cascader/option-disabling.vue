@@ -7,7 +7,6 @@ const options = [
   {
     value: 'guide',
     label: 'Guide',
-    disabled: true,
     children: [
       {
         value: 'disciplines',
@@ -16,6 +15,7 @@ const options = [
           {
             value: 'consistency',
             label: 'Consistency',
+            disabled: true,
           },
           {
             value: 'feedback',
